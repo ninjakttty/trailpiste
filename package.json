@@ -9,6 +9,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next build && next start -p 80"
+    "postinstall": "next build",
+    "start": "next start -p 80"
+  },
+  "engines": {
+    "node": "8.5.0"
   }
 }
