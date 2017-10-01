@@ -2,13 +2,13 @@
   "name": "trailpiste",
   "description": "",
   "dependencies": {
-    "next": "latest",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "next": "^4.0.0-beta.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next build && next start"
+    "start": "next build && next start -p 80"
   }
 }
