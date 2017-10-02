@@ -2,6 +2,8 @@
   "name": "trailpiste",
   "description": "",
   "dependencies": {
+    "apollo-client": "^1.9.3",
+    "graphql-tag": "^2.4.2",
     "next": "^4.0.0-beta.2",
     "react": "^15.6.2",
     "react-dom": "^15.6.2"
