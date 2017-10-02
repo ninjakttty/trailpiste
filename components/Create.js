@@ -10,7 +10,8 @@ class Create extends React.Component {
   handleClick = async () => {
     const { name } = this.state;
     const { addComp } = this.props;
-    addComp({ variables: { name } });
+    await addComp({ variables: { name } });
+    window.location.pathname = '/';
   };
 
   render() {
