@@ -1,0 +1,24 @@
+# project: cj89un4bt0860012227gdvade
+# version: 2
+
+type Component implements Node {
+  id: ID! @isUnique
+  name: String!
+}
+
+type User implements Node {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type File implements Node {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  contentType: String!
+  name: String!
+  secret: String! @isUnique
+  size: Int!
+  url: String! @isUnique
+}
