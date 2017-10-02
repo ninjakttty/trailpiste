@@ -1,9 +1,10 @@
 # project: cj89un4bt0860012227gdvade
-# version: 2
+# version: 3
 
 type Component implements Node {
   id: ID! @isUnique
   name: String!
+  imageUrl: String
 }
 
 type User implements Node {
